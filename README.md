@@ -1,6 +1,6 @@
 # Assembly Endgame 🎯
 
-A fun, Hangman-inspired word guessing game with a programming twist — built using **ReactJS**.
+A fun, word guessing game — built using **ReactJS**.
 
 ## 📌 About the Project
 
