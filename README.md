@@ -8,7 +8,7 @@ Assembly Endgame challenges you to guess a hidden word.
 Each wrong guess eliminates a programming language from the list.  
 Reveal the word before all languages disappear, and celebrate your win with a confetti explosion! 🎉
 
----
+--
 
 ## 🖥️ Tech Stack
 
@@ -18,7 +18,7 @@ Reveal the word before all languages disappear, and celebrate your win with a co
 - **Confetti library** for animations  
 - **clsx** for conditional class handling
 
----
+--
 
 ## ✨ Features
 
@@ -27,4 +27,4 @@ Reveal the word before all languages disappear, and celebrate your win with a co
 - 🎉 Confetti animation for victories  
 - 🌐 Deployed on GitHub Pages for easy access  
 
----
+
