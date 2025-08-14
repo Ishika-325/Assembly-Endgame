@@ -9,8 +9,9 @@ import Confetti  from 'react-confetti'
 import { ListWords } from "./List"
 export default function EndGame() {
 
-
-    const [word , setWord] = useState(()=>ListWords())
+    const [current , setCurrent] = useState(()=>ListWords())
+    const word = current.word
+    const riddle = current.riddle
     const [guess , setguess] = useState([])
 
     const wrongCount = guess.filter(arr => !word.includes(arr)).length
@@ -75,7 +76,7 @@ export default function EndGame() {
     }
 
     function restart(){
-        setWord(ListWords())
+        setCurrent(ListWords())
         setguess([])
     }
 
@@ -93,6 +94,7 @@ export default function EndGame() {
             <div id="languageBlock">
                 {languageEle}
             </div>
+            <div id='riddle'>{riddle}</div>
             <div id="letterbox">
                  {words}
             </div>
